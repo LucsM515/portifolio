@@ -141,3 +141,19 @@ body {
         width: auto;
     }
 }
+
+@media (max-width: 480px){
+    .cabecalho__menu {
+        display: flex;
+        gap: 30px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 365px){
+    .cabecalho__menu {
+        display: flex;
+        gap: 20px;
+        font-size: 1rem;
+    }
+}
